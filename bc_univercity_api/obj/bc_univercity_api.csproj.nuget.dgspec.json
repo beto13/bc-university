@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\engue\\Desktop\\Bootcamp\\bc_univercity\\bc_univercity_api\\bc_univercity_api.csproj": {}
+    "C:\\Users\\engue\\Documents\\bc-university\\bc_univercity_api\\bc_univercity_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\engue\\Desktop\\Bootcamp\\bc_univercity\\bc_univercity_api\\bc_univercity_api.csproj": {
+    "C:\\Users\\engue\\Documents\\bc-university\\bc_univercity_api\\bc_univercity_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\engue\\Desktop\\Bootcamp\\bc_univercity\\bc_univercity_api\\bc_univercity_api.csproj",
+        "projectUniqueName": "C:\\Users\\engue\\Documents\\bc-university\\bc_univercity_api\\bc_univercity_api.csproj",
         "projectName": "bc_univercity_api",
-        "projectPath": "C:\\Users\\engue\\Desktop\\Bootcamp\\bc_univercity\\bc_univercity_api\\bc_univercity_api.csproj",
+        "projectPath": "C:\\Users\\engue\\Documents\\bc-university\\bc_univercity_api\\bc_univercity_api.csproj",
         "packagesPath": "C:\\Users\\engue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\engue\\Desktop\\Bootcamp\\bc_univercity\\bc_univercity_api\\obj\\",
+        "outputPath": "C:\\Users\\engue\\Documents\\bc-university\\bc_univercity_api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
